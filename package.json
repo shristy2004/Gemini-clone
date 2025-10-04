@@ -1,0 +1,23 @@
+{
+  "name": "gemini-clone",
+  "version": "1.0.0",
+  "description": "A clone of the Google Gemini AI interface.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.3",
+    "vite": "^7.1.6"
+  }
+}
