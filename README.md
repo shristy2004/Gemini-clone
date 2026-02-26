@@ -7,7 +7,7 @@ This project demonstrates API integration, state management, and clean UI design
 
 ## 🚀 Live Demo
 
-🔗 Add your deployed link here (Vercel / Netlify)
+🔗[ Add your deployed link here (Vercel / Netlify)](https://gemini07clone.netlify.app/)
 
 ---
 
