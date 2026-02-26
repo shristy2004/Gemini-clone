@@ -33,7 +33,10 @@ This project demonstrates API integration, state management, and clean UI design
 ---
 
 ## 📸 Screenshots
+## 📊 GitHub Stats
 
-(Add screenshots here)
+![Stats](https://github-readme-stats.vercel.app/api?username=[YOUR_USERNAME](https://github.com/shristy2004)&show_icons=true&theme=radical)
 
-Example:
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAMEhttps://github.com/shristy2004&theme=radical)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR_USERNAME](https://github.com/shristy2004)&layout=compact&theme=radical)
