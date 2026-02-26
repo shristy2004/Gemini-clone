@@ -35,8 +35,11 @@ This project demonstrates API integration, state management, and clean UI design
 ## 📸 Screenshots
 ## 📊 GitHub Stats
 
-![Stats](https://github-readme-stats.vercel.app/api?username=[YOUR_USERNAME](https://github.com/shristy2004)&show_icons=true&theme=radical)
 
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAMEhttps://github.com/shristy2004&theme=radical)
+## 📊 GitHub Stats
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR_USERNAME](https://github.com/shristy2004)&layout=compact&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shristy2004&show_icons=true&theme=radical)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=shristy2004&theme=radical)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shristy2004&layout=compact&theme=radical)
