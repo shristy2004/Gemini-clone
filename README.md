@@ -1,9 +1,7 @@
-# 🤖 Gemini AI Clone – Frontend (React.js)
+# 🤖 Gemini Clone – AI Chat Interface
 
-A frontend web application built using **React.js**, inspired by Google Gemini.  
-This project integrates the **Gemini REST API** directly from the frontend to simulate an AI-powered chatbot experience.
-
-⚠ This is a frontend-only project (no backend server included).
+A modern front-end web application built using **React.js**, inspired by the UI and functionality of Google Gemini.  
+This project demonstrates API integration, state management, and clean UI design to simulate an AI-powered chatbot experience.
 
 ---
 
@@ -15,40 +13,27 @@ This project integrates the **Gemini REST API** directly from the frontend to si
 
 ## ✨ Features
 
-- 💬 Interactive AI chat interface
-- 🔗 Direct REST API integration (Gemini API)
-- ⚡ Real-time response rendering
-- 🧠 Prompt-based interaction
-- 🎨 Clean and minimal UI
+- 💬 Interactive AI Chat Interface
+- ⚡ Real-time API integration
+- 🧠 Dynamic response rendering
+- 🎨 Clean and modern UI
 - 📱 Responsive design
+- 🔄 State management using React hooks
 
 ---
 
 ## 🛠 Tech Stack
 
 - ⚛ React.js
-- 🌐 Gemini REST API
-- 📦 Fetch API / Axios
 - 🎨 CSS
-- 📜 JavaScript (ES6+)
+- 🔗 REST API Integration
+- 📦 Axios / Fetch API
+- 🗂 JavaScript (ES6+)
 
 ---
 
-## 🔗 API Integration (Frontend)
+## 📸 Screenshots
 
-The application sends user prompts directly to the Gemini REST API and displays AI-generated responses.
+(Add screenshots here)
 
-Example API call:
-
-```javascript
-fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=YOUR_API_KEY", {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json",
-  },
-  body: JSON.stringify({
-    contents: [{
-      parts: [{ text: userInput }]
-    }]
-  }),
-});
+Example:
