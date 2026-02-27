@@ -17,7 +17,7 @@ const Main = () => {
                 {!showResult
                     ? <>
                         <div className="greet">
-                            <p><span>Hello,Shristy</span></p>
+                            <p><span>Hello,User</span></p>
                             <p>How can I help you today?</p>
                         </div>
                         <div className="cards">
@@ -75,7 +75,7 @@ const Main = () => {
                         </div>
                     </div>
                     <p className="bottom-info">
-                        Gemini may display inaccurate info, including about peole, so double-check its responses.Your privacy and Gemini Apps
+                        Gemini may display inaccurate info,so double-check its responses.
                     </p>
                 </div>
             </div>

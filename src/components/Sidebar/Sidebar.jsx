@@ -2,10 +2,12 @@ import React, { useContext, useState } from 'react'
 import './Sidebar.css'
 import { assets } from '../../assets/assets'
 import { Context } from '../../context/context'
+
 const Sidebar = () => {
 
     const [extended, setExtended] = useState(false)
     const { onSent, prevPrompts, setRecentPrompt, newChat } = useContext(Context)
+
     const loadPrompt = async (prompt) => {
         setRecentPrompt(prompt)
         await onSent(prompt)
@@ -24,7 +26,12 @@ const Sidebar = () => {
                         <p className="recent-title"></p>
                         {prevPrompts.map((item, index) => {
                             return (
-                                <div onClick={() => loadPrompt(item)} className="recent-entry">
+                                // 💡 SOLUTION: Added the 'key={index}' prop here
+                                <div
+                                    key={index} // <-- This fixes the warning
+                                    onClick={() => loadPrompt(item)}
+                                    className="recent-entry"
+                                >
                                     <img src={assets.message_icon} alt="" />
                                     <p>{item.slice(0, 18)}...</p>
                                 </div>
